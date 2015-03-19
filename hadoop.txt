@@ -1,0 +1,6 @@
+
+Running MPI applications on HDFS(Hadoop Distributed File System)
+
+HDFS is a hierarchy of files and directories that transforms very large data sets using Map Reduce paradigm. The Message Passing Interface Standard (MPI) is a message passing library standard.
+MapReduce and MPI were developed in two di?erent communities that have traditionally been somewhat disjoint. For communication infrastructures, the two most prevalent approaches are MPI and MapReduce, both of which have substantial drawbacks for machine learning with lots of data. MPI suffers because it has no fault tolerance by default and because it has a poor understanding of where data is. MapReduce  suffers  because  the  setup  and teardown costs are significant. Since the drawbacks of MPI and MapReduce differ, we can try to create a solution which eliminates all of drawbacks.
+ MapReduce is more dynamic and fault tolerant than MPI as it is simpler and easier to use . Our work is to set up a hadoop cluster and try to run MPI applications on it using map reduce paradigm.
